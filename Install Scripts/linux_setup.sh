@@ -51,8 +51,8 @@ sudo apt-get -y install openjdk-11-*
 sudo aptitude -y install qemu-kvm
 sudo adduser jac kvm && sudo chown jac /dev/kvm
 sudo aptitude -y install  git git-extras
-git config --global user.name "jac"
-git config --global user.email joshuacarpentier21@gmail.com
+git config --global user.name "jacgit18"
+git config --global user.email jacdevgoo2020@gmail.com
 
 sudo snap install lsd
 sudo snap install snap-store
