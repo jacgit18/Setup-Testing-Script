@@ -3,6 +3,38 @@ sudo apt-get -y install openjdk-11-*
 sudo snap install dbeaver-ce
 sudo aptitude -y install ffmpeg
 
+ sudo aptitude -y install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+# Verify key
+
+sudo apt-key fingerprint 0EBFCD88
+
+
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+
+
+ sudo aptitude -y install docker-ce docker-ce-cli containerd.io
+
+sudo snap install --classic insomnia
+sudo snap install --classic postman 
+sudo snap install --classic rambox
+sudo snap install --classic heroku
+
+heroku login -i
+# jacdevgoo2020@gmail.com
+# mgV98rJa*rb!Q7P
+
+
 sudo snap install --classic flutter
 sudo snap install --classic android-studio
 sudo snap install --classic flutter-gallery 
@@ -11,7 +43,11 @@ flutter doctor --android-licenses
 
 sudo aptitude -y install atom
 
+
+
 # Vscode
+sudo snap install --classic code
+
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
