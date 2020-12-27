@@ -2,10 +2,10 @@
 
 cd /media
 
-var param;
+var param = $1;
 
 sudo mkdir $param
-sudo chown jac:jac $param
+sudo chown jac:jac param
 
 sudo blkid
 sudo nano /etc/fstab
