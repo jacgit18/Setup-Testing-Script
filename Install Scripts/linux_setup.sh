@@ -1,19 +1,15 @@
 #!/bin/bash -eux
 
 # linux setup
-sudo add-apt-repository -y ppa:linrunner/tlp 
+#sudo add-apt-repository -y ppa:linrunner/tlp 
 #sudo add-apt-repository -y ppa:oguzhaninan/stacer 
-sudo add-apt-repository -y ppa:gezakovacs/ppa 
-sudo add-apt-repository -y ppa:slimbook/slimbook  
-sudo apt-add-repository -y ppa:system76-dev/stable 
-
-#sudo apt-add-repository -y ppa:teejee2008/ppa
-sudo aptitude -y install timeshift
-
+#sudo add-apt-repository -y ppa:gezakovacs/ppa 
+#sudo add-apt-repository -y ppa:slimbook/slimbook  
+#sudo apt-add-repository -y ppa:system76-dev/stable 
 #sudo add-apt-repository -y ppa:obsproject/obs-studio
 
-
-
+#sudo apt-add-repository -y ppa:teejee2008/ppa
+#sudo aptitude -y install timeshift
 
 history >> file.txt
 
@@ -22,38 +18,27 @@ sudo aptitude -y install flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo flatpak install flathub org.linux_hardware.hw-probe
 sudo -E flatpak run org.linux_hardware.hw-probe -all -upload
-sudo aptitude -y install snapd
 
-sudo snap install dbeaver-ce
 
 
 
 sudo aptitude -y install festival # Text reader
 sudo aptitude -y install xsel # Depency for festival
 
-sudo aptitude -y install unetbootin
 
-sudo aptitude -y install tlp 
-sudo aptitude -y install tlp-rdw
 
-sudo aptitude -y install ffmpeg
-sudo aptitude -y install slimbookbattery
 
-sudo aptitude -y install gnome-shell-extension-system76-power system76-power
 sudo aptitude -y install kazam 
 sudo aptitude -y install gnome-shell-pomodoro
-sudo aptitude -y install obs-studio
-sudo aptitude -y install timeshift
-sudo aptitude -y install muon
+
 sudo apt-get -y install openjdk-11-*
-sudo aptitude -y install qemu-kvm
-sudo adduser jac kvm && sudo chown jac /dev/kvm
+sudo snap install dbeaver-ce
 
 
-sudo snap install lsd
-sudo snap install snap-store
+sudo aptitude -y install ffmpeg
 
-sudo aptitude -y install qemu virt-manager ebtables
+
+
 
 
 git clone https://github.com/usbkey9/uktools && cd uktools
@@ -61,10 +46,8 @@ make
 
 sudo aptitude -y install libvirt-bin
 
-sudo aptitude -y install powertop
-sudo powertop --calibrate
 
-sudo aptitude -y install ubuntu-restricted-extras
+
 
 
 

@@ -3,7 +3,7 @@
 sudo apt -y install apt-transport-https curl
 curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
 echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-sudo aptitude update
+sudo aptitude -y update
 sudo apt -y install brave-browser
 
 sudo apt install gdebi-core wget
@@ -19,7 +19,7 @@ sudo apt -y update && sudo apt -y install vivaldi-stable
 google-chrome
 vivaldi https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb?hl=en
 
-
+sudo aptitude -y update && sudo aptitude -y upgrade
 
 
 exit 0
