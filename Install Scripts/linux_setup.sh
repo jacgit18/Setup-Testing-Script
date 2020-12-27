@@ -2,17 +2,15 @@
 
 # linux setup
 sudo add-apt-repository -y ppa:linrunner/tlp 
-sudo add-apt-repository -y ppa:oguzhaninan/stacer 
+#sudo add-apt-repository -y ppa:oguzhaninan/stacer 
 sudo add-apt-repository -y ppa:gezakovacs/ppa 
 sudo add-apt-repository -y ppa:slimbook/slimbook  
 sudo apt-add-repository -y ppa:system76-dev/stable 
 sudo apt-add-repository -y ppa:teejee2008/ppa
-sudo add-apt-repository -y ppa:git-core/ppa 
 sudo add-apt-repository -y ppa:obsproject/obs-studio
 
 
-sudo apt -y install aptitude
-sudo aptitude -y update && sudo aptitude -y upgrade
+
 
 history >> file.txt
 
@@ -50,9 +48,7 @@ sudo aptitude -y install muon
 sudo apt-get -y install openjdk-11-*
 sudo aptitude -y install qemu-kvm
 sudo adduser jac kvm && sudo chown jac /dev/kvm
-sudo aptitude -y install  git git-extras
-git config --global user.name "jacgit18"
-git config --global user.email jacdevgoo2020@gmail.com
+
 
 sudo snap install lsd
 sudo snap install snap-store
