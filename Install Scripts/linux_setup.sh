@@ -6,8 +6,11 @@ sudo add-apt-repository -y ppa:linrunner/tlp
 sudo add-apt-repository -y ppa:gezakovacs/ppa 
 sudo add-apt-repository -y ppa:slimbook/slimbook  
 sudo apt-add-repository -y ppa:system76-dev/stable 
-sudo apt-add-repository -y ppa:teejee2008/ppa
-sudo add-apt-repository -y ppa:obsproject/obs-studio
+
+#sudo apt-add-repository -y ppa:teejee2008/ppa
+sudo aptitude -y install timeshift
+
+#sudo add-apt-repository -y ppa:obsproject/obs-studio
 
 
 
@@ -20,26 +23,23 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 sudo flatpak install flathub org.linux_hardware.hw-probe
 sudo -E flatpak run org.linux_hardware.hw-probe -all -upload
 sudo aptitude -y install snapd
+
 sudo snap install dbeaver-ce
 
-sudo aptitude -y install xscreensaver
-sudo aptitude -y install clamav clamtk
-sudo aptitude -y install asciinema
-sudo aptitude -y install festival
+
+
+sudo aptitude -y install festival # Text reader
+sudo aptitude -y install xsel # Depency for festival
+
 sudo aptitude -y install unetbootin
+
 sudo aptitude -y install tlp 
 sudo aptitude -y install tlp-rdw
-sudo aptitude -y install tldr 
-sudo aptitude -y install shotwell
+
 sudo aptitude -y install ffmpeg
-sudo aptitude -y install xsel
-sudo aptitude -y install nemo
-sudo aptitude -y install timeshift
-sudo aptitude -y install stacer 
-sudo aptitude -y install steam
 sudo aptitude -y install slimbookbattery
+
 sudo aptitude -y install gnome-shell-extension-system76-power system76-power
-sudo aptitude -y install gparted
 sudo aptitude -y install kazam 
 sudo aptitude -y install gnome-shell-pomodoro
 sudo aptitude -y install obs-studio
