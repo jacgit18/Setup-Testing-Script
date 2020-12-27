@@ -3,6 +3,8 @@ sudo apt-get -y install openjdk-11-*
 sudo snap install dbeaver-ce
 sudo aptitude -y install ffmpeg
 
+bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
+
  sudo aptitude -y install \
     apt-transport-https \
     ca-certificates \
@@ -36,9 +38,10 @@ heroku login -i
 # jacdevgoo2020@gmail.com
 
 
+sudo snap install --classic android-studio
+android-studio
 
 sudo snap install --classic flutter
-sudo snap install --classic android-studio
 sudo snap install --classic flutter-gallery 
 flutter doctor 
 flutter doctor --android-licenses
