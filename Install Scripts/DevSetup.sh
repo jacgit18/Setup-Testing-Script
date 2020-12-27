@@ -23,7 +23,9 @@ sudo add-apt-repository \
    stable"
 
 
- sudo aptitude -y install docker-ce docker-ce-cli containerd.io
+sudo aptitude -y install docker-ce docker-ce-cli containerd.io
+docker login 
+# jacdoc
 
 sudo snap install --classic insomnia
 sudo snap install --classic postman 
@@ -32,7 +34,7 @@ sudo snap install --classic heroku
 
 heroku login -i
 # jacdevgoo2020@gmail.com
-# mgV98rJa*rb!Q7P
+
 
 
 sudo snap install --classic flutter
