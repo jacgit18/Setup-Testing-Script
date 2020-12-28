@@ -44,7 +44,12 @@ android-studio
 sudo snap install --classic flutter
 sudo snap install --classic flutter-gallery 
 flutter doctor 
+# sudo update-alternatives --config java # switch to java 8 fix issue
+flutter config --android-studio-dir="/snap/android-studio/current/android-studio"
+
+
 flutter doctor --android-licenses
+
 
 sudo aptitude -y install atom
 
