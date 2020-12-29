@@ -21,6 +21,7 @@ sudo aptitude -y install shotwell # image viewer larn to use or find new
 sudo aptitude -y install steam
 sudo aptitude -y install stacer 
 sudo aptitude -y install notepadqq
+sudo aptitude -y install muon
 
 
 curl https://download.jitsi.org/jitsi-key.gpg.key | sudo sh -c 'gpg --dearmor > /usr/share/keyrings/jitsi-keyring.gpg'
