@@ -4,7 +4,7 @@ sudo aptitude -y install autoconf-archive gettext valac pkg-config desktop-file-
 sudo aptitude -y install xsel # Depency for festival
 sudo aptitude -y install curl
 
-sudo aptitude -y install libvirt-bin # other Virtualization stuff
+#sudo aptitude -y install libvirt-bin # other Virtualization stuff
 # LC_ALL=C lscpu | grep Virtualization
 
 # sudo systemctl enable libvirtd
