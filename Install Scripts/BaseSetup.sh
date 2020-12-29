@@ -61,7 +61,7 @@ wget https://gist.github.com/maxwelleite/10774746/raw/ttf-vista-fonts-installer.
 # sudo aptitude -y install xchm
 # sudo aptitude -y install gnome-shell-pomodoro
 
-sudo flatpak install flathub org.linux_hardware.hw-probe
+sudo flatpak -y install flathub org.linux_hardware.hw-probe
 sudo -E flatpak run org.linux_hardware.hw-probe -all -upload
 
 
