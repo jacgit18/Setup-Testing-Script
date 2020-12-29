@@ -12,7 +12,8 @@ sudo aptitude -y install curl
 # sudo systemctl status libvirtd
 # sudo usermod -G libvirt -a jac
 # sudo qemu-img convert -f vdi -O qcow2 Ubuntu\ 20.04.vdi /var/lib/libvirt/images/ubuntu-20-04.qcow2
-
+sudo aptitude -y install tweak 
+sudo aptitude -y install timeshift
 sudo aptitude -y install pulseeffects
 sudo aptitude -y install gparted
 sudo aptitude -y install asciinema # Terminal Recorder
