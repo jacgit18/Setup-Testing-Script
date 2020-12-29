@@ -61,7 +61,7 @@ sudo snap install --classic code
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
-sudo aptitude -y update && sudo aptitude -y install code
+#sudo aptitude -y update && sudo aptitude -y install code
 
 # node js is connected to npm when installing node js your installing npm 
 # which is package manager nvm is node version manager basically controlling
