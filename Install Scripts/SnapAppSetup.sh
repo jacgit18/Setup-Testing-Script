@@ -1,5 +1,6 @@
 #!/bin/bash -eux
 
+sudo aptitude -y install snapd
 sudo snap install snap-store
 sudo snap install lsd
 sudo snap install youtube-dl
