@@ -26,7 +26,7 @@ sudo add-apt-repository \
 
 
 sudo aptitude -y install docker-ce docker-ce-cli containerd.io
-docker login 
+sudo docker login 
 # jacdoc
 
 sudo snap install --classic insomnia
