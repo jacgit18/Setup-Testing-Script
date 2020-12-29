@@ -40,6 +40,8 @@ sudo aptitude -y install vlc
 sudo aptitude -y install obs-studio
 sudo aptitude -y install muon
 sudo aptitude -y install ubuntu-restricted-extras
+sudo add-apt-repository ppa:gezakovacs/ppa
+sudo aptitude -y update 
 sudo aptitude -y install unetbootin
 sudo aptitude -y install gnome-shell-extensions gnome-menus gir1.2-gmenu-3.0
 sudo snap install --classic discord
