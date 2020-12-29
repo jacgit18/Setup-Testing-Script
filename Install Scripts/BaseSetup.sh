@@ -56,7 +56,6 @@ sudo aptitude -y install fontforge
 wget https://gist.github.com/maxwelleite/10774746/raw/ttf-vista-fonts-installer.sh -q -O - | sudo bash
 
 
-sudo aptitude -y install snapd
 # sudo aptitude -y install xchm
 # sudo aptitude -y install gnome-shell-pomodoro
 
