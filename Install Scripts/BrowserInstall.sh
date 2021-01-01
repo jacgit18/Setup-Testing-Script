@@ -16,7 +16,7 @@ sudo add-apt-repository -y 'deb https://repo.vivaldi.com/archive/deb/ stable mai
 #sudo aptitude -y update && sudo aptitude -y install vivaldi-stable
 sudo apt -y update && sudo apt -y install vivaldi-stable
 
-google-chrome
+google-chrome https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb?hl=en
 vivaldi https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb?hl=en
 
 sudo aptitude -y update && sudo aptitude -y upgrade

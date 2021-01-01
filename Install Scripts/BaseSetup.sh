@@ -14,7 +14,8 @@ sudo aptitude -y install curl
 # sudo qemu-img convert -f vdi -O qcow2 Ubuntu\ 20.04.vdi /var/lib/libvirt/images/ubuntu-20-04.qcow2
 sudo aptitude -y install tweak 
 sudo aptitude -y install timeshift
-sudo aptitude -y install pulseeffects
+# sudo aptitude -y install pulseeffects
+flatpak install flathub com.github.wwmm.pulseeffects
 sudo aptitude -y install gparted
 sudo aptitude -y install asciinema # Terminal Recorder
 sudo aptitude -y install tldr # tldr is a cleaner man pg
@@ -52,7 +53,7 @@ sudo snap install --classic audacity
 
 sudo add-apt-repository ppa:ernstp/mesarc
 sudo aptitude update
-sudo aptitude install corectrl
+sudo aptitude -y install corectrl
 
 
 sudo aptitude -y install ttf-mscorefonts-installer
