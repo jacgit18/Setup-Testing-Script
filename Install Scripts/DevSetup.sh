@@ -1,4 +1,8 @@
 #!/bin/bash -eux
+
+
+flatpak install flathub org.zealdocs.Zeal
+
 sudo apt-get -y install openjdk-11-*
 sudo snap install dbeaver-ce
 sudo aptitude -y install ffmpeg
