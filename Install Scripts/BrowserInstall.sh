@@ -13,10 +13,8 @@ sudo gdebi google-chrome-stable_current_amd64.deb
 
 wget -qO- https://repo.vivaldi.com/archive/linux_signing_key.pub | sudo apt-key add -
 sudo add-apt-repository -y 'deb https://repo.vivaldi.com/archive/deb/ stable main'  
-#sudo aptitude -y update && sudo aptitude -y install vivaldi-stable
 sudo apt -y update && sudo apt -y install vivaldi-stable
 
-google-chrome https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb?hl=en
 vivaldi https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb?hl=en
 
 sudo aptitude -y update && sudo aptitude -y upgrade
