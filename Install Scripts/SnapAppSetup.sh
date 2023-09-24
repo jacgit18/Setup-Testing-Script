@@ -4,6 +4,8 @@ sudo aptitude -y install snapd
 sudo snap install snap-store
 sudo snap install lsd
 sudo snap install youtube-dl
+sudo snap install morgen
+sudo snap install mailspring
 
 sudo snap install --classic powershell
 # To set Powershell as default shell:
